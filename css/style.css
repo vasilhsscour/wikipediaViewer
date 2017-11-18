@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://skourfvas.000webhostapp.com/images/search-bgi.jpg);
+    background-image: url(../images/search-bgi.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,7 +13,7 @@ input {
     border: none;
     border-bottom: 2px solid black;
     opacity: 1;
-    background-image: url(https://skourfvas.000webhostapp.com/images/search-bgi.jpg);
+    background-image: url(../images/search-bgi.jpg);
     color: rgb(182, 169, 169);
 }
 
