@@ -20,3 +20,20 @@ input {
 #box {
     margin-top: 300px;
 }
+
+.results {
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.res {
+    background-color: rgba(32, 63, 81, 0.4);
+    color: rgb(117, 127, 128);
+}
+
+.res:hover {
+    background-color: rgba(32, 63, 81, 1);
+    color: rgb(134, 144, 145);
+    cursor: pointer;
+}
