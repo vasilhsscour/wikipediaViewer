@@ -8,3 +8,15 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+input {
+    border: none;
+    border-bottom: 2px solid black;
+    opacity: 1;
+    background-image: url(https://skourfvas.000webhostapp.com/images/search-bgi.jpg);
+    color: rgb(182, 169, 169);
+}
+
+#box {
+    margin-top: 300px;
+}
