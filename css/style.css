@@ -37,3 +37,7 @@ input {
     color: rgb(134, 144, 145);
     cursor: pointer;
 }
+
+footer p {
+    color: rgb(134, 144, 145);
+}
