@@ -24,6 +24,17 @@ $(function() {
         }
 
     });
+
+    // when a user press a div will redirect the user to wikipedia page
+    $(document).on("click", ".res", function() {
+        var curid = $(this).attr("id");
+        var url = "https://en.wikipedia.org/?curid=" + curid;
+        var a = $("<a></a>", { href: url, target: "_blank", id: "a" });
+        $("body").append(a);
+        $("#a")[0].click();
+        $("#a").remove();
+    });
+
 });
 
 // connect to the url which pass as a parameter
