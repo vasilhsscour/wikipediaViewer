@@ -15,7 +15,7 @@ $(function() {
                 // move the input and the link to the top
                 $("#box").css({ marginTop: 0 });
                 // create the url for the api
-                var api = "https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences&exlimit=max&gsrsearch=" + title + "&callback=?";
+                var api = "https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrlimit=10&gsrsearch=" + title + "&callback=?";
                 // call the function
                 takeTheResults(api);
             }
